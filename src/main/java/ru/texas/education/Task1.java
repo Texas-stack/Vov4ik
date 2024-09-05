@@ -1,5 +1,7 @@
 package ru.texas.education;
 
+import java.util.Locale;
+
 /**
  * Task1 - программа для изменения регистра строк.
  * <p>
@@ -22,8 +24,9 @@ public class Task1 {
         String small = "маленькими";
 
         //Напиши свой код ниже
-        String output1 = text + big;
-        String output2 = text + small;
+
+        String output1 = (text + big).toUpperCase();
+        String output2 = (text + small).toLowerCase();
 
         //Дальше ничего не трогай
         AnswerChecking check = new AnswerChecking();

@@ -23,7 +23,7 @@ public class Task3 {
         int five = 5;
 
         // Напиши свой код ниже
-        String answer = "Замени этот код на решение";
+        String answer = (three-two)+two+three+""+five;
 
 
         // А вот дальше уже не лезь

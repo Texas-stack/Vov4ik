@@ -19,7 +19,7 @@ public class Task2 {
         String shortString = "Я короткая строка";
 
         // Напиши код здесь
-        int diff = 0;
+        int diff = longString.length()-shortString.length();
 
         // Всё что ниже - не трогай!!!
         AnswerChecking answerChecking = new AnswerChecking();

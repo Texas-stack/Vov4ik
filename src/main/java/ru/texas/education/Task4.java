@@ -19,7 +19,7 @@ public class Task4 {
         String input = checking.prepareTask4();
 
         // Напиши код тут
-        int answer = 0;
+        int answer = Integer.parseInt(input)+10;
 
         // Дальше не лезь
         checking.answerCheckTask4("" + answer);
